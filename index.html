@@ -1,18 +1,46 @@
 <index>
-<!DOCTYPE html>
-<html lang="en">
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Website</title>
+        <link rel="stylesheet" href="styles.css">
+        </link>
+    </head>
+
     <body>
         <header>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>My Website</title>
-            <ul>
-                <li><a href="index.html">home</a></li>
-            </ul>
-            </header>
-        <h1>Welcome to My Website</h1>
-        <p >L3Harris <strong>opensky</strong> channel mapping
-        You can visit their website here for more information. <a href="https://L3Harris.com" title="L3Harris Website">L3Harris</a></p>
-        <img src="https://mms.businesswire.com/media/20230103005143/en/743699/5/L3Harris.jpg" alt="L3Harris Logo" width="250" height="100"></img>
+            <div class="nav-container" id="navcon">
+                <a class="nav-link" href="#">Home</a>
+                <nav>
+                    <ul class="nav-menu">
+                        <li class="nav-item"><a href="#home" class="nav-link active">L3Harris</a></li>
+                        <li class="nav-item"><a href="fancifymytext.html" class="nav-link">Fancify My Text</a></li>
+                        <li class="nav-item dropdown">
+                            <a href="#services" class="nav-link">Services</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="menu-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </header>
+        <div class="container" id="bodycon">
+            <h1>Welcome to My Website</h1>
+            <p>L3Harris <strong>opensky</strong> channel mapping
+                You can visit their website here for more information. <a href="https://L3Harris.com"
+                    title="L3Harris Website">L3Harris</a></p>
+            <img src="https://mms.businesswire.com/media/20230103005143/en/743699/5/L3Harris.jpg" alt="L3Harris Logo"
+                width="250" height="100">
+
+        </div>
+
+
     </body>
-</html>
+
+    </html>

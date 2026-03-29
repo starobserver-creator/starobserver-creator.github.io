@@ -1,4 +1,47 @@
-#buttons{
+#buttons {
     padding-top: 0.5em;
     padding-left: 0.3em;
+}
+
+/* Changed from .navbar to .nav-container to match your HTML */
+.nav-container {
+    background-color: #333;
+    color: white;
+    padding: 0.5em;
+    display: flex;             /* Added to align Home and Menu horizontally */
+    justify-content: space-between; /* Puts Home on left, Menu on right */
+    align-items: center;       /* Centers items vertically */
+}
+#bodycon{
+    padding-left: 0.5em;
+    background-color: #f0f0f0;
+}
+body{
+    background-color: #f0f0f0;
+}
+
+.nav-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+}
+
+/* Hover effect so users know they are links */
+.nav-link:hover {
+    background-color: #555;
+    border-radius: 4px;
+    text-decoration: underline;
+}
+
+.menu-toggle {
+    display: none; /* Stays hidden on desktop */
+    flex-direction: column;
+    cursor: pointer;
 }
